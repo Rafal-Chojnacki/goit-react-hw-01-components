@@ -1,0 +1,28 @@
+.friend-list {
+    width: 300px;
+    list-style: none;
+    margin: auto;
+    
+}
+.friend {
+    display: flex;
+    align-items:center;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px 2px lightgray;
+}
+.friendAvatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+.friendName {
+    padding-left: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    display:inline-block;
+}
