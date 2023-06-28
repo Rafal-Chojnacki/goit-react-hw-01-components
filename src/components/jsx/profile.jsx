@@ -1,4 +1,4 @@
-import user from './user.json';
+import user from '../json/user';
 
 export const Profile = (props) => {
     return (

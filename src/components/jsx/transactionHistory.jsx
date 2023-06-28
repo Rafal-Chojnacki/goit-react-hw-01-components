@@ -1,4 +1,4 @@
-import transactions from './transactions.json';
+import transactions from '../json/transactions';
 const dataArray = transactions.map(transaction => ({
     id: transaction.id,
     type: transaction.type,

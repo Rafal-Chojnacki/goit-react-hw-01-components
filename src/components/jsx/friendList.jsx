@@ -1,4 +1,4 @@
-import friends from './friends.json';
+import friends from '../json/friends';
 
   const FriendListItem = () => {
     const dataArray = friends.map(friend => ({

@@ -1,5 +1,5 @@
 
-import data from './data.json';
+import data from '../json/data';
 
   const dataArray = data.map(item => ({
     id: item.id,
