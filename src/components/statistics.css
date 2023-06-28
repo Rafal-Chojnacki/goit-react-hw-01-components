@@ -21,14 +21,25 @@
     width: 60px;
     height: 60px;
     flex-direction: column;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .label-stats {
+    font-size: 13px;
+    height: 20px;
     display: block;
     background-color: rgba(0, 0, 255, 0.342);
     color: antiquewhite;
+    padding-top: 10px;
+
 }
 
 .percentage {
+    height: 30px;
+    font-size: 20px;
     display: block;
+    background-color: rgba(0, 0, 255, 0.342);
+    color: antiquewhite;
 }

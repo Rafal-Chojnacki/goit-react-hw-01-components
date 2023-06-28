@@ -4,11 +4,13 @@ import './index.css';
 import { Profile } from 'components/profile';
 import { Statistics } from 'components/statistics';
 import { FriendList} from 'components/friendList';
+import { TransactionsHistory} from 'components/transactionHistory';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Profile/>
     <Statistics/>
     <FriendList/>
+    <TransactionsHistory/>
   </React.StrictMode>
 );

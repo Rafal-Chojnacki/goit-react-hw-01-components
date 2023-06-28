@@ -2,6 +2,7 @@
     width: 300px;
     list-style: none;
     margin: auto;
+    padding: 0;
     
 }
 .friend {
@@ -11,6 +12,14 @@
     margin: 10px;
     box-shadow: 2px 2px 5px 2px lightgray;
 }
+.onLine {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px;
+}
+
 .friendAvatar {
     width: 80px;
     height: 80px;
@@ -20,7 +29,7 @@
 }
 
 .friendName {
-    padding-left: 10px;
+    padding: 10px;
     color: black;
     font-size: 20px;
     font-weight: 500;

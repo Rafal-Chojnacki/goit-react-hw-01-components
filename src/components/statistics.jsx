@@ -17,7 +17,7 @@ export const Statistics = (props) => {
       {dataArray.map(item => (
         <li className="item" key={item.id}>
           <span className="label-stats">{item.label}</span>
-          <span className="percentage">{item.percentage}</span>
+          <span className="percentage">{item.percentage}%</span>
         </li>
       ))}
     </ul>
