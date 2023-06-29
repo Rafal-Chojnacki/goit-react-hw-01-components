@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { App } from 'components/jsx/App';
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-<App/>
+    <changeColor/>
+    <App/>
   </React.StrictMode>
 );

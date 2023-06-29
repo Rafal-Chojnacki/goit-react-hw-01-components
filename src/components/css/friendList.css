@@ -1,15 +1,16 @@
 .friend-list {
-    width: 300px;
+    width: 600px;
     list-style: none;
     margin: auto;
     padding: 0;
     
 }
 .friend {
+    width: 300px;
     display: flex;
     align-items:center;
     padding: 5px;
-    margin: 10px;
+    margin: 10px auto;
     box-shadow: 2px 2px 5px 2px lightgray;
 }
 .onLine {
