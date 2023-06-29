@@ -1,6 +1,7 @@
+import PropTypes from "prop-types";
 import user from '../json/user';
 
-export const Profile = (props) => {
+export const Profile = () => {
     return (
 <div className="profile">
     <div className="description">
@@ -31,3 +32,13 @@ export const Profile = (props) => {
   </div> 
 )
     }
+
+    Profile.propTypes = {
+      avatar: PropTypes.string.isRequired,
+      username: PropTypes.string,
+      tag: PropTypes.string,
+      location: PropTypes.string,
+      followers: PropTypes.number,
+      views: PropTypes.number,
+      likes: PropTypes.number,
+    };

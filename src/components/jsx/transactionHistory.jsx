@@ -1,7 +1,8 @@
+import PropTypes from 'prop-types';
 import transactions from '../json/transactions';
 const dataArray = transactions
 
-  export const TransactionsHistory = (props) => {
+  export const TransactionsHistory = () => {
     return (
       <table className="transaction-history">
   <thead>
@@ -23,3 +24,9 @@ const dataArray = transactions
 </table>
     )
   }
+
+  TransactionsHistory.propTypes = {
+    type: PropTypes.string,
+    amount: PropTypes.number,
+    currency: PropTypes.string,
+  };
