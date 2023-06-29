@@ -1,13 +1,7 @@
 
 import data from '../json/data';
 
-  const dataArray = data.map(item => ({
-    id: item.id,
-    label: item.label,
-    percentage: item.percentage,
-  }));
-  console.log(dataArray);
-
+  const dataArray = data
 
 export const Statistics = (props) => {
   return (

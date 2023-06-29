@@ -1,14 +1,9 @@
 import transactions from '../json/transactions';
-const dataArray = transactions.map(transaction => ({
-    id: transaction.id,
-    type: transaction.type,
-    amount: transaction.amount,
-    currency: transaction.currency
-  }));
+const dataArray = transactions
 
   export const TransactionsHistory = (props) => {
     return (
-      <table class="transaction-history">
+      <table className="transaction-history">
   <thead>
     <tr className='theadRow'>
       <th >Type</th>

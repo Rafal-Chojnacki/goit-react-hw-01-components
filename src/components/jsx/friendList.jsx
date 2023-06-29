@@ -1,12 +1,8 @@
 import friends from '../json/friends';
 
   const FriendListItem = () => {
-    const dataArray = friends.map(friend => ({
-        id: friend.id,
-        avatar: friend.avatar,
-        name: friend.name,
-        isOnLine: friend.isOnLine,
-      }));
+  const dataArray = friends
+
     return (<ul className="friend-list">
  {dataArray.map(item => (
             <li className="friend" key={item.id}>
