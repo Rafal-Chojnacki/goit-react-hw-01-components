@@ -1,32 +1,33 @@
 import PropTypes from "prop-types";
 import user from '../json/user';
+import css from "../module.css/profile.module.css"
 
 export const Profile = () => {
     return (
-<div className="profile">
-    <div className="description">
+<div className={css.profile}>
+    <div className={css.description}>
       <img
         src={user.avatar}
         alt="User avatar"
-        className="avatar"
+        className={css.avatar}
       />
-      <p className="name">{user.username}</p>
-      <p className="tag">@{user.tag}</p>
-      <p className="location">{user.location}</p>
+      <p className={css.name}>{user.username}</p>
+      <p className={css.tag}>@{user.tag}</p>
+      <p className={css.location}>{user.location}</p>
     </div>
   
-    <ul className="stats">
+    <ul className={css.stats}>
       <li>
-        <span className="label">Followers</span>
-        <span className="quantity">{user.stats.followers}</span>
+        <span className={css.label}>Followers</span>
+        <span className={css.quantity}>{user.stats.followers}</span>
       </li>
       <li>
-        <span className="label">Views</span>
-        <span className="quantity">{user.stats.views}</span>
+        <span className={css.label}>Views</span>
+        <span className={css.quantity}>{user.stats.views}</span>
       </li>
       <li>
-        <span className="label">Likes</span>
-        <span className="quantity">{user.stats.likes}</span>
+        <span className={css.label}>Likes</span>
+        <span className={css.quantity}>{user.stats.likes}</span>
       </li>
     </ul>
   </div> 
@@ -34,7 +35,7 @@ export const Profile = () => {
     }
 
     Profile.propTypes = {
-      avatar: PropTypes.string.isRequired,
+      avatar: PropTypes.string,
       username: PropTypes.string,
       tag: PropTypes.string,
       location: PropTypes.string,

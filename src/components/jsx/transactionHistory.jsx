@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types';
 import transactions from '../json/transactions';
+import css from '../module.css/transactionHistory.module.css';
 const dataArray = transactions
 
   export const TransactionsHistory = () => {
     return (
-      <table className="transaction-history">
+      <table className={css.transactionHistory}>
   <thead>
-    <tr className='theadRow'>
+    <tr className={css.theadRow}>
       <th >Type</th>
       <th>Amount</th>
       <th>Currency</th>
@@ -14,8 +15,8 @@ const dataArray = transactions
   </thead>
   <tbody>
   {dataArray.map(item => (
-        <tr className="transaction-item" key={item.id}>
-      <td className='typeOfTransaction'>{item.type}</td>
+        <tr className={css.transactionItem} key={item.id}>
+      <td className={css.typeOfTransaction}>{item.type}</td>
       <td>{item.amount}</td>
       <td>{item.currency}</td>
     </tr>
