@@ -15,7 +15,7 @@ const dataArray = transactions
   </thead>
   <tbody>
   {dataArray.map(item => (
-        <tr className={css.transactionItem} key={item.id}>
+        <tr className={css.item} key={item.id}>
       <td className={css.typeOfTransaction}>{item.type}</td>
       <td>{item.amount}</td>
       <td>{item.currency}</td>

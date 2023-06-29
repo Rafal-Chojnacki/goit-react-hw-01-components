@@ -16,7 +16,7 @@ table tbody td{ border: 1px solid rgb(231, 228, 228); }
     text-transform: uppercase;
 }
 
-.transactionItem {
+.item {
     text-align: center;
     line-height: 40px;
     color: gray;
