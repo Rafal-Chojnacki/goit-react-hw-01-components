@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import data from '../json/data';
-import css from "../module.css/statistics.module.css";
+import data from './data';
+import css from "./statistics.module.css";
 
   const dataArray = data
 

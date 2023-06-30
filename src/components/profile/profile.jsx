@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import user from '../json/user';
-import css from "../module.css/profile.module.css"
+import user from './user';
+import css from "./profile.module.css"
 
 export const Profile = () => {
     return (

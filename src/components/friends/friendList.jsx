@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import friends from '../json/friends';
-import css from "../module.css/friendList.module.css";
+import friends from './friends';
+import css from "./friendList.module.css";
 
   const FriendListItem = () => {
   const dataArray = friends;

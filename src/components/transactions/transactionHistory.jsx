@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import transactions from '../json/transactions';
-import css from '../module.css/transactionHistory.module.css';
+import transactions from './transactions';
+import css from './transactionHistory.module.css';
 const dataArray = transactions
 
   export const TransactionsHistory = () => {
