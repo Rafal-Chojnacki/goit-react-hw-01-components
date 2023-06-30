@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import friends from '../json/friends';
 import css from "../module.css/friendList.module.css";
 
@@ -25,3 +26,10 @@ export const FriendList = (props) => {
       <FriendListItem/>
     )
 }
+
+FriendList.propTypes = {
+  id: PropTypes.number,
+  isOnline: PropTypes.bool,
+  avatar: PropTypes.string,
+  name: PropTypes.string,
+};

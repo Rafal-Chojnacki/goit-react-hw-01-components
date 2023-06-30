@@ -1,4 +1,4 @@
-
+import PropTypes from "prop-types";
 import data from '../json/data';
 import css from "../module.css/statistics.module.css";
 
@@ -19,3 +19,9 @@ export const Statistics = () => {
     </section>
   )
   }
+
+  Statistics.propTypes = {
+    id: PropTypes.number,
+    label: PropTypes.string,
+    percentage: PropTypes.number,
+  };

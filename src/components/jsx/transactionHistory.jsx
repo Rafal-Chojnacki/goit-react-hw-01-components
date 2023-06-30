@@ -27,6 +27,7 @@ const dataArray = transactions
   }
 
   TransactionsHistory.propTypes = {
+    id: PropTypes.number,
     type: PropTypes.string,
     amount: PropTypes.number,
     currency: PropTypes.string,
