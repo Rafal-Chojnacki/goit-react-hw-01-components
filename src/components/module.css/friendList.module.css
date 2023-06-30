@@ -13,11 +13,19 @@
     margin: 10px auto;
     box-shadow: 2px 2px 5px 2px lightgray;
 }
-.onLine {
+.offLine {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: red;
+    margin: 10px;
+}
+
+.onLine {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(21, 138, 21);
     margin: 10px;
 }
 

@@ -6,7 +6,6 @@ import { App } from 'components/jsx/App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <changeColor/>
     <App/>
   </React.StrictMode>
 );
