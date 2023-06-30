@@ -9,7 +9,8 @@ export const Statistics = () => {
     
     <section className={css.statistics}>
     <h2 className={css.title}>Upload stats</h2>
-    <ul className={css.list}>
+    <div className="wraper">
+      <ul className={css.list}>
       {dataArray.map(item => (
         <li className={css.item} key={item.id}
         style={{
@@ -20,6 +21,7 @@ export const Statistics = () => {
         </li>
       ))}
     </ul>
+    </div>
     </section>
   )
   }

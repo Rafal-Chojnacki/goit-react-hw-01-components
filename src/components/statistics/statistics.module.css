@@ -1,6 +1,6 @@
 .statistics {
-    width: 300px;
-    margin:auto;
+    width: 600px;
+    margin: auto;
     padding-top: 30px;
     padding-bottom: 50px;
 }
@@ -9,11 +9,18 @@
     text-align: center;
     padding: 20px;
 }
+
+.wraper {
+    width: 600px;
+    margin: auto;
+}
 .list {
+    width: 300px;
     list-style: none;
     display: flex;
     padding: 0;
     text-align: center;
+    margin: auto;
 }
 .item {
     width: 75px;
